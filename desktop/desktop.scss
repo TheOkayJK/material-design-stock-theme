@@ -17,7 +17,7 @@
 // make header icons semi-translucent
 .d-header-icons {
   .d-icon {
-    color: rgba(var(--header_primary-rgb), 0.7);
+    color: var(--primary);
   }
 }
 
@@ -104,7 +104,8 @@
 
 //darken color, remove shadow and border when pressed
 .btn:active {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: none;
   box-shadow: none;
 }
 
