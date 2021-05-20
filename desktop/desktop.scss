@@ -45,6 +45,10 @@
   background-color: var(--secondary);
 }
 
+.nav-pills>li a.active {
+  background:  rgba(var(--primary), 0.1);
+}
+
 //fix color of user profile navigation icons
 .user-main .nav-pills {
   a.active i {
@@ -104,7 +108,7 @@
 
 //darken color, remove shadow and border when pressed
 .btn:active {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
   background-image: none;
   box-shadow: none;
 }
