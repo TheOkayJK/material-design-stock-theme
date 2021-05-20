@@ -32,6 +32,10 @@ body textarea {
   }
 }
 
+.d-icon {
+  color: var(--primary);
+}
+
 //remove shadow from a few buttons
 .d-editor-button-bar .btn,
 .bulk-select-all,
