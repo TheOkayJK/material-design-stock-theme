@@ -115,6 +115,12 @@
     }
 }
 
+//Increase size of reply icon
+.widget-button.btn.create .fa-reply {
+    color: var(--secondary);
+    font-size: 20px;
+}
+
 .small-action {
     border: none;
 }
@@ -142,5 +148,21 @@ aside.quote {
             right: initial;
             left: 4px;
         }
+    }
+    #create-topic.btn-default {
+        right: initial;
+        left: 50px;
+    }
+    .widget-button.btn.create {
+        left: initial;
+        right: -10px;
+    }
+    .widget-button.btn.notifications-dropdown {
+        right: initial;
+        left: 4px;
+    }
+    .user-main .about .controls {
+        padding-right: initial;
+        padding-left: 10px;
     }
 }
